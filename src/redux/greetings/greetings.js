@@ -28,4 +28,3 @@ export const getGreetingFromServer = () => async (dispatch) => {
   console.log(greeting);
   dispatch(getGreeting(greeting));
 };
-

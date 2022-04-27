@@ -5,7 +5,6 @@ import { getGreetingFromServer } from '../redux/greetings/greetings';
 const Greeting = () => {
   const dispatch = useDispatch();
   const { greetings } = useSelector((state) => state.greetings);
-  console.log(greetings);
   const [state, setState] = useState(false);
 
   const newGreeting = () => {
